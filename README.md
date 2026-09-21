@@ -1,5 +1,6 @@
 Google Antigravity CLI (agy) on Termux (Android)
 Panduan dan skrip instalasi resmi untuk menjalankan Google Antigravity CLI (agy) di lingkungan Termux Android secara seamless tanpa perlu selalu masuk manual ke dalam kontainer Linux.
+
 📌 Latar Belakang Masalah
 Saat menginstal agy langsung di Termux menggunakan perintah standar:
 curl -fsSL https://antigravity.google/cli/install.sh | bash
@@ -78,5 +79,6 @@ Solusi: Ketik exit untuk keluar dari kontainer terlebih dahulu sebelum membuat a
 Akses File & Direktori Kerja:
 Wrapper ini menggunakan flag --bind "$PWD" --work-dir "$PWD". Artinya, jika Anda menjalankan agy di folder ~/project-saya, perintah tersebut akan otomatis membaca dan membuat file di folder tersebut.
 Untuk mengizinkan akses ke galeri/penyimpanan internal HP, jalankan termux-setup-storage di Termux terlebih dahulu.
+
 📄 Lisensi
 MIT License - Bebas digunakan dan dimodifikasi untuk kebutuhan komunitas pengembang Android/Termux.
